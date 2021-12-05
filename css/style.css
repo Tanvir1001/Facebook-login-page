@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header part start */
+
+    header {
+        background: #3C5B9A;
+    }
+
+    img{
+        margin-top: 31px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5px 0px;
+        padding: 0px;
+    }
+
+    .group{
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+
+    .group label{
+        color: #fff;
+    } 
+
+    input[type='email']{
+
+    }
+
+    input[type='password']{
+        
+    }
+
+    input[type='submit'] {
+        background: #6973A6;
+        border: none;
+        color: #fff;
+        box-shadow: 1px 4px 3px 0px black;
+        padding: 0px 6px;
+        margin-top: 5px;
+    }
+
+    .span{
+        color: #788EC0;
+        margin-left:5px;
+    }
+
+/* Header part end */
+
+/* Registation part start */
+
+    .content{
+        background: #DBD9DC;
+    }
+
+    .content h3{
+        margin-top: 75px;
+        margin-bottom: 40px;
+    }
+
+    .content ul{
+        list-style: none;
+    }
+
+    .content ul li{
+        display: flex;
+        margin-bottom: 22px;
+    }
+
+    .content ul li i{
+        font-size: 30px;
+    }
+    .content ul li p{
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .content ul li p a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    h1{
+        margin-top: 22px;
+    }
+
+    h6{
+        font-size: 19px;
+        color: #683333;
+        padding-bottom: 2px;
+    }
+
+    b{
+        color: rgb(1, 5, 14);
+    }
+
+    .clt {
+        width: 49.5%;
+        display: inline-block;
+    }
+
+    .form-group input::placeholder{
+        color: gray;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    span{
+        color: #788EC0;
+        margin-left: 5px;
+    }
+
+    input[type='radio']{
+        margin-top: 15px;
+    }
+
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .footer a{
+        color: #788EC0;
+    }
+
+    .btn-custom {
+        background: #5F9B4B;
+        padding: 10px 50px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    hr{
+        border-top: 1.5px solid #9da0a2;
+    }
+
+/* Registation part end */
